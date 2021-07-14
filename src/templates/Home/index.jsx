@@ -66,7 +66,7 @@ class Home extends Component {
         <div className="search-container">
           {!!searchValue && (
 
-            <h1>Searcha value teste: {searchValue}</h1>
+            <h1>Searcha value: {searchValue}</h1>
 
           )}
 
