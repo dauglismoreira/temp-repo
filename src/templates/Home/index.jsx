@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from 'react';
+import { React, useCallback, useEffect, useState } from 'react';
 
 import './styles.css';
 
@@ -16,7 +16,7 @@ export const Home = () => {
 
   const noMorePosts = page + postsPerPage >= allPosts.length;
 
-  const filteredPosts = !!searchValue ?
+  const filteredPosts = searchValue ?
     allPosts.filter(post => {
       return post.title.toLowerCase().includes(
         searchValue.toLowerCase()

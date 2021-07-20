@@ -1,3 +1,5 @@
+import { React } from 'react';
+
 import { Button } from '.';
 
 const { render, screen, fireEvent } = require('@testing-library/react');
